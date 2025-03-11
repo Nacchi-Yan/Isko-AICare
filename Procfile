@@ -1,1 +1,1 @@
-web: gunicorn iskoaicareapp.wsgi
+web: waitress-serve --port=$PORT iskoaicareapp.wsgi:application
