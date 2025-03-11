@@ -1,1 +1,1 @@
-web: gunicorn iskoaicareapp.wsgi
+gunicorn iskoaicareapp.wsgi
