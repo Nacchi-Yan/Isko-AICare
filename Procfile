@@ -1,1 +1,2 @@
-web: waitress-serve --port=$PORT iskoaicareapp.wsgi:application
+# filepath: c:\xampp\htdocs\Isko-AICare\Procfile
+web: gunicorn iskoaicareapp.wsgi:application
