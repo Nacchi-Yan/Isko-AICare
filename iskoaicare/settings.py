@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-onp+m-il9cm!66zihmy)i^genkkc7f6v28aexh&h_%odqe-oc+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["isko-aicare.vercel.app", "localhost"]
 
 
 # Application definition
