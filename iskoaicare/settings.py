@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-onp+m-il9cm!66zihmy)i^genkkc7f6v28aexh&h_%odqe-oc+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [".vercel.app", "127.0.0.1", ".now.sh"]
+ALLOWED_HOSTS = [".vercel.app"]
 
 
 # Application definition
@@ -78,12 +78,13 @@ WSGI_APPLICATION = 'iskoaicare.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': ,
+        'USER': ,
+        'PASSWORD': ,
+        'HOST': ,
+        'PORT': ,}
     }
-}
-
-
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
